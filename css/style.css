@@ -1,0 +1,665 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*
+crema #faf3e3 
+naranja #f49c13 
+verde #1f5b37
+*/
+
+/*INICIO */
+
+header{
+    background-color: #F8F7F2 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header div img{
+    width: 40%;
+}
+
+
+header nav ul{
+    display: flex;
+    gap: 5px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+.probando{
+    display: flex;
+    justify-content: center;
+}
+
+.bienvenido{
+    background-color: #F8F7F2;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.imagenBienvenido{
+    height: 400px;
+    width: 1400px;
+}
+
+h2{
+    color: #f49c13;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+h3{
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.informacion{
+    background-color: #EEEDEA;
+    padding: 20px;
+}
+
+.informacionClick{
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.informacionClick img{
+    height: 250px;
+    width: 350px;
+    gap: 20px;
+    margin: 30px;
+}
+
+.informacionIcon{
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+
+.informacionIcon img{
+    height: 100px; 
+    width: 100px;
+    gap: 40px;
+}
+
+.noticia{
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 30px 50px;
+}
+
+.madre-contenedor{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "noticia-1 noticia-2"
+                         "noticia-3 noticia-4"
+                         "noticia-5 noticia-6";
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.noticia-1{
+    height: 110px;
+    width: 500px;
+    grid-area: noticia-1;
+}
+
+.noticia-2{
+    height: 110px;
+    width: 500px;
+    grid-area: noticia-2;
+}
+
+.noticia-3{
+    height: 110px;
+    width: 500px;
+    grid-area: noticia-3;
+}
+
+.noticia-4{
+    height: 110px;
+    width: 500px;
+    grid-area: noticia-4;
+}
+
+.noticia-5{
+    height: 110px;
+    width: 500px;
+    grid-area: noticia-5;
+}
+
+.noticia-6{
+    height: 110px;
+    width: 500px;
+    grid-area: noticia-6;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    background-color: #EEEDEA;
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+.footer div{
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-size: 10px;
+}
+
+.footer div img{
+    height: 80px;
+}
+
+.footerF{
+    grid-area: footerF;
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+/*INFORMACION*/
+
+.frecuentes{
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+.bannerInformacion{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 1350px;
+}
+
+.preguntas{
+    background-color: gainsboro;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.preguntas ul li{
+    list-style: none;
+    background-color: beige;
+    font-family:'Roboto', sans-serif;
+    font-size: 17px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.preguntas ul li .subPreguntas{
+    display: none;
+}
+
+.preguntas ul li:hover > .subPreguntas{
+    display: block;
+}
+
+.mapas{
+    background-color: whitesmoke;
+    padding: 20px;
+
+}
+
+.mapas h4{
+    font-size: 20px;
+    padding: 10px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+}
+
+.mapas div{
+    padding: 10px;
+    gap: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.mapasTamaño{
+    height: 300px;
+    width: 250px;
+}
+
+
+/*ACTIVIDADES*/
+
+
+.hacer p{
+    padding: 20px;
+    font-family:'Roboto', sans-serif;
+    background-color: gainsboro;
+}
+
+.trekking{
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.trekking div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.trekkingTamaño{
+    padding: 5px;
+    height: 250px;
+    width: 350px;
+}
+
+
+.excursiones{
+    background-color: gainsboro;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.excursiones div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.excursionesTamaño{
+    height: 250px;
+    width: 350px;
+    padding: 5px;
+}
+
+.automovil{
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.automovil div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.automovilTamaño{
+    height: 250px;
+    width: 350px;
+    padding: 5px;
+}
+
+.section-actividades{
+    background-color: #dcdcdc;
+    padding: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.section-actividades img{
+    height: 80px;
+}
+
+.section-actividades div{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+/*ACTIVIDADES - CAMINATAS*/
+
+.caminataAuto h1{
+    background-color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+}
+
+.autoguiadas{
+    background-color: whitesmoke;   
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-areas: "imagen1 texto1 "
+                         "imagen2 imagen3"
+                         "texto2 imagen4";
+    justify-items: center;
+    align-items: center;
+}
+
+.imagen1{
+    grid-area: imagen1;
+    height: 80%;
+    width: 80%;
+}
+
+.texto1{
+    grid-area: texto1;
+    padding: 50px;
+    text-align: start;
+}
+
+.imagen2{
+    grid-area: imagen2;
+    height: 80%;
+    width: 80%;
+}
+
+.imagen3{
+    grid-area: imagen3;
+    height: 80%;
+    width: 80%;
+}
+
+.texto2{
+    grid-area: texto2;
+    padding: 50px;
+    text-align: end;
+}
+
+
+.imagen4{
+    grid-area: imagen4;
+    height: 80%;
+    width: 80%;
+}
+
+.videoCaminata{
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.videoCaminata iframe{
+    width: 700px;
+    height: 400px;
+}
+
+
+/*SERVICIOS*/
+
+.disfrutar{
+    background-color: gainsboro;
+    font-family:'Roboto', sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+
+.distrutarImagen{
+    background-color: gainsboro;
+    height: 400px;
+    width: 1349px;
+}
+
+.gastronomia{
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.gastronomia div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.gastronomiaTamaño{
+    padding: 5px;
+    height: 250px;
+    width: 350px;
+}
+
+.hospedaje{
+    background-color: gainsboro;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.hospedaje div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.hospedajeTamaño{
+    padding: 5px;
+    height: 250px;
+    width: 350px;
+}
+
+.salud{
+    background-color: whitesmoke;
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.salud div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.saludTamaño{
+    padding: 5px;
+    height: 250px;
+    width: 350px;
+}
+
+
+/*CONTACTO*/
+
+.informes{
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+.contenedor-informacion{
+    background-color: gainsboro;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.recuadro-1{
+    box-sizing: content-box;
+    width: 300px; 
+    border: 5px black;
+}
+
+.recuadro-2{
+    box-sizing: content-box;
+    width: 300px; 
+    border: 5px black;
+}
+
+.banner{
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactanos{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: "titulo form"
+                         "ubicacion form";
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.titulo{
+    font-family:'Roboto', sans-serif;
+    line-height: 2;
+    grid-area: titulo;
+    justify-self: end;
+    align-self: start;
+}
+
+.form{
+    grid-area: form;
+    width: 550px;
+    height: 380px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #e9eaf1;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.field{
+    background-color: rgb(254, 254, 254);
+    padding: 15px;
+    width: 350px;
+    margin: 7px;
+    border: solid 2px #ffffff;
+    color: #f2f2f8;
+}
+
+.fieldConsulta{
+    background-color: rgb(254, 254, 254);
+    padding: 15px;
+    width: 350px;
+    margin: 7px;
+    border: solid 2px white;
+    color: #f2f2f8;
+    height: 90px;
+}
+
+.ubicacion{
+    grid-area: ubicacion;
+    padding: 10px;
+    justify-self: end;
+    align-self: start;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:750px){
+
+/* INICIO */
+    .informacionIcon{
+        margin: 30px;
+        gap: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        align-content: center;
+    
+    }
+    .noticia-1{
+        height: 110px;
+        width: 400px;
+        grid-area: noticia-1;
+    }
+    
+    .noticia-2{
+        height: 110px;
+        width: 400px;
+        grid-area: noticia-2;
+    }
+    
+    .noticia-3{
+        height: 110px;
+        width: 400px;
+        grid-area: noticia-3;
+    }
+    
+    .noticia-4{
+        height: 110px;
+        width: 400px;
+        grid-area: noticia-4;
+    }
+    
+    .noticia-5{
+        height: 110px;
+        width: 400px;
+        grid-area: noticia-5;
+    }
+    
+    .noticia-6{
+        height: 110px;
+        width: 400px;
+        grid-area: noticia-6;
+    }
+    
+
+/*CONTACTO*/
+    .contactanos{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 0.3fr 1fr;
+        grid-template-areas: "titulo form"
+                             "ubicacion form";
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
