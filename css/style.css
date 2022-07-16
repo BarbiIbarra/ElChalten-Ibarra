@@ -100,6 +100,10 @@ h3{
     gap: 40px;
 }
 
+.informacionIcon img:hover{
+    transform: scale(1.2);
+}
+
 .noticia{
     background-color: whitesmoke;
     font-family:'Roboto', sans-serif;
@@ -262,7 +266,6 @@ h3{
 
 /*ACTIVIDADES*/
 
-
 .hacer p{
     padding: 20px;
     font-family:'Roboto', sans-serif;
@@ -358,7 +361,7 @@ h3{
 
 /*ACTIVIDADES - CAMINATAS*/
 
-.caminataAuto h1{
+.caminataAuto{
     background-color: whitesmoke;
     padding: 30px;
     text-align: center;
@@ -380,6 +383,19 @@ h3{
     grid-area: imagen1;
     height: 80%;
     width: 80%;
+    animation-name: imagen1;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes imagen1{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .texto1{
@@ -392,12 +408,37 @@ h3{
     grid-area: imagen2;
     height: 80%;
     width: 80%;
+    animation-name: imagen2;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+@keyframes imagen2{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .imagen3{
     grid-area: imagen3;
     height: 80%;
     width: 80%;
+    animation-name: imagen3;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes imagen3{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .texto2{
@@ -411,6 +452,19 @@ h3{
     grid-area: imagen4;
     height: 80%;
     width: 80%;
+    animation-name: imagen4;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes imagen4{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .videoCaminata{
