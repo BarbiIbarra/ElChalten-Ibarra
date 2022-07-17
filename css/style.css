@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
-/*
-crema #faf3e3 
-naranja #f49c13 
+/* PALETA DE COLORES
+crema #EEEDEA
+gris #E9E8E5
+naranja #f49c13
 verde #1f5b37
 */
 
-/*INICIO */
+/*INDEX*/
 
+/*encabezado*/
 header{
-    background-color: #F8F7F2 ;
+    background-color: #dcdcdc;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,7 +24,6 @@ header{
 header div img{
     width: 40%;
 }
-
 
 header nav ul{
     display: flex;
@@ -33,22 +34,23 @@ header nav ul li{
     list-style: none;
 }
 
+/*inicio*/
+
 .probando{
     display: flex;
     justify-content: center;
 }
 
+.imagenBienvenido{
+    width: 100%;
+}
+
 .bienvenido{
-    background-color: #F8F7F2;
+    background-color: #E9E8E5;
     font-family:'Roboto', sans-serif;
     text-align: justify;
     line-height: 1.5;
     padding: 20px;
-}
-
-.imagenBienvenido{
-    height: 400px;
-    width: 1400px;
 }
 
 h2{
@@ -88,6 +90,7 @@ h3{
 .informacionIcon{
     padding: 30px;
     margin: 10px;
+    position: relative;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -95,13 +98,16 @@ h3{
 }
 
 .informacionIcon img{
-    height: 100px; 
-    width: 100px;
+    width: 15%;
     gap: 40px;
 }
 
+.informacionIcon img:hover{
+    transform: scale(1.2);
+}
+
 .noticia{
-    background-color: whitesmoke;
+    background-color: #E9E8E5;
     font-family:'Roboto', sans-serif;
     text-align: justify;
     line-height: 1.5;
@@ -164,7 +170,7 @@ h3{
 /*FOOTER*/
 
 .footer{
-    background-color: #EEEDEA;
+    background-color: gainsboro;
     padding: 15px;
     display: flex;
     flex-flow: row wrap;
@@ -185,7 +191,7 @@ h3{
 
 .footerF{
     grid-area: footerF;
-    background-color: whitesmoke;
+    background-color: #E7E5E5;
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     text-align: center;
@@ -194,22 +200,17 @@ h3{
 
 /*INFORMACION*/
 
+
 .frecuentes{
-    background-color: whitesmoke;
+    background-color: #EEEDEA;
     font-family:'Roboto', sans-serif;
     text-align: justify;
     line-height: 1.5;
     padding: 20px;
 }
 
-.bannerInformacion{
-    background-color: whitesmoke;
-    height: 400px;
-    width: 1350px;
-}
-
 .preguntas{
-    background-color: gainsboro;
+    background-color: #EEEDEA;
     padding: 15px;
     display: flex;
     align-items: center;
@@ -218,7 +219,7 @@ h3{
 
 .preguntas ul li{
     list-style: none;
-    background-color: beige;
+    background-color: gainsboro;
     font-family:'Roboto', sans-serif;
     font-size: 17px;
     margin: 5px;
@@ -234,7 +235,7 @@ h3{
 }
 
 .mapas{
-    background-color: whitesmoke;
+    background-color: #E9E8E5;
     padding: 20px;
 
 }
@@ -259,18 +260,16 @@ h3{
     width: 250px;
 }
 
-
 /*ACTIVIDADES*/
-
 
 .hacer p{
     padding: 20px;
     font-family:'Roboto', sans-serif;
-    background-color: gainsboro;
+    background-color: #EEEDEA;
 }
 
 .trekking{
-    background-color: whitesmoke;
+    background-color: #E9E8E5;
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -284,16 +283,14 @@ h3{
     gap: 20px;
 }
 
-
 .trekkingTamaño{
     padding: 5px;
     height: 250px;
     width: 350px;
 }
 
-
 .excursiones{
-    background-color: gainsboro;
+    background-color: #EEEDEA;
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -315,7 +312,7 @@ h3{
 }
 
 .automovil{
-    background-color: whitesmoke;
+    background-color: #E9E8E5;
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -335,37 +332,16 @@ h3{
     padding: 5px;
 }
 
-.section-actividades{
-    background-color: #dcdcdc;
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-
-.section-actividades img{
-    height: 80px;
-}
-
-.section-actividades div{
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-}
-
 /*ACTIVIDADES - CAMINATAS*/
 
-.caminataAuto h1{
-    background-color: whitesmoke;
+.caminataAuto{
+    background-color: #EEEDEA;
     padding: 30px;
     text-align: center;
 }
 
 .autoguiadas{
-    background-color: whitesmoke;   
+    background-color: #EEEDEA;   
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 2fr 2fr 2fr;
@@ -380,6 +356,19 @@ h3{
     grid-area: imagen1;
     height: 80%;
     width: 80%;
+    animation-name: imagen1;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes imagen1{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .texto1{
@@ -392,12 +381,37 @@ h3{
     grid-area: imagen2;
     height: 80%;
     width: 80%;
+    animation-name: imagen2;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+@keyframes imagen2{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .imagen3{
     grid-area: imagen3;
     height: 80%;
     width: 80%;
+    animation-name: imagen3;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes imagen3{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .texto2{
@@ -411,10 +425,23 @@ h3{
     grid-area: imagen4;
     height: 80%;
     width: 80%;
+    animation-name: imagen4;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+}
+
+@keyframes imagen4{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 .videoCaminata{
-    background-color: whitesmoke;
+    background-color: #E9E8E5;
     padding: 20px;
     display: flex;
     flex-flow: row nowrap;
@@ -430,20 +457,20 @@ h3{
 /*SERVICIOS*/
 
 .disfrutar{
-    background-color: gainsboro;
+    background-color: #EEEDEA;
     font-family:'Roboto', sans-serif;
     text-align: justify;
     padding: 20px;
 }
 
 .distrutarImagen{
-    background-color: gainsboro;
-    height: 400px;
+    background-color: #E9E8E5;
+    height: 430px;
     width: 1349px;
 }
 
 .gastronomia{
-    background-color: whitesmoke;
+    background-color: #EEEDEA;
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -463,7 +490,7 @@ h3{
 }
 
 .hospedaje{
-    background-color: gainsboro;
+    background-color: #E9E8E5;
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -484,7 +511,7 @@ h3{
 }
 
 .salud{
-    background-color: whitesmoke;
+    background-color: #EEEDEA;
     font-family:'Roboto', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -509,12 +536,12 @@ h3{
 /*CONTACTO*/
 
 .informes{
-    background-color: whitesmoke;
+    background-color: #EEEDEA;
     padding: 30px;
 }
 
 .contenedor-informacion{
-    background-color: gainsboro;
+    background-color: #E9E8E5;
     padding: 30px;
     display: flex;
     flex-flow: row wrap;
@@ -534,13 +561,18 @@ h3{
     border: 5px black;
 }
 
-.banner{
-    height: 400px;
+.collage{
+    background-color: #EEEDEA;
     padding: 20px;
+    gap: 5px;
     display: flex;
-    justify-content: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
+.imagenCollage{
+    width: 25%;    
+}
 
 .contactanos{
     padding: 20px;
@@ -600,10 +632,19 @@ h3{
 }
 
 
+
+
+
+
+
+
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width:750px){
 
 /* INICIO */
+
     .informacionIcon{
         margin: 30px;
         gap: 10px;
