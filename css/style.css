@@ -88,18 +88,15 @@ h3{
 }
 
 .informacionIcon{
-    padding: 30px;
+    padding: 20px;
     margin: 10px;
-    position: relative;
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
-
 }
 
 .informacionIcon img{
-    width: 15%;
-    gap: 40px;
+    width: 130px;
+    gap: 50px;
 }
 
 .informacionIcon img:hover{
