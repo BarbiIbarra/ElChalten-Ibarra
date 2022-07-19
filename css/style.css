@@ -18,7 +18,8 @@ header{
     background-color: #dcdcdc;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-around;    
+    font-family:'Arimo', sans-serif;
 }
 
 header div img{
@@ -47,26 +48,34 @@ header nav ul li{
 
 .bienvenido{
     background-color: #E9E8E5;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Arimo', sans-serif;
     text-align: justify;
+    font-size: 17px;
     line-height: 1.5;
-    padding: 20px;
+    padding: 30px;
 }
 
-h2{
-    color: #f49c13;
-    font-family:'Roboto', sans-serif;
-    text-align: justify;
-    line-height: 1.5;
-    font-size: 25px;
+.bienvenido h1{
+    font-family: 'Arimo', sans-serif;
+    color: #1f5b37;
+    font-size: 50px;
 }
 
-h3{
-    font-family:'Roboto', sans-serif;
+.noticia{
+    font-family: 'Arimo', sans-serif;
     text-align: justify;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 17px;
 }
+
+.noticia h2{
+    color: #1f5b37;
+    font-family: 'Arimo', sans-serif;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 35px;
+}
+
 
 .informacion{
     background-color: #EEEDEA;
@@ -175,35 +184,54 @@ h3{
     align-content: center;
 }
 
-
 .footer div{
-    font-family: 'Roboto', sans-serif;
-    line-height: 2;
-    font-size: 10px;
+    font-family: 'Arimo', sans-serif;;
+    line-height: 1.5;
+    font-size: 15px;
 }
 
 .footer div img{
     height: 80px;
 }
 
+.contactanosFooter{
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+}
+
+.seguinosFooter{
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+}
+
+
 .footerF{
     grid-area: footerF;
     background-color: #E7E5E5;
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
     text-align: center;
     padding: 20px;
 }
 
-/*INFORMACION*/
+.footerF h4{
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+}
 
+
+/*INFORMACION*/
 
 .frecuentes{
     background-color: #EEEDEA;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Arimo', sans-serif;
     text-align: justify;
+    font-size: 17px;
     line-height: 1.5;
-    padding: 20px;
+    padding: 30px;
+}
+
+.frecuentes h2{
+    color: #1f5b37;
+    font-size: 35px;
 }
 
 .preguntas{
@@ -217,7 +245,7 @@ h3{
 .preguntas ul li{
     list-style: none;
     background-color: gainsboro;
-    font-family:'Roboto', sans-serif;
+    font-family:'Arimo', sans-serif;
     font-size: 17px;
     margin: 5px;
     padding: 5px;
@@ -238,9 +266,10 @@ h3{
 }
 
 .mapas h4{
-    font-size: 20px;
+    font-size: 35px;
+    color: #1f5b37;
     padding: 10px;
-    font-family:'Roboto', sans-serif;
+    font-family:'Arimo', sans-serif;
     text-align: center;
 }
 
@@ -261,16 +290,23 @@ h3{
 
 .hacer p{
     padding: 20px;
-    font-family:'Roboto', sans-serif;
+    font-family:'Arimo', sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
     background-color: #EEEDEA;
 }
 
 .trekking{
     background-color: #E9E8E5;
-    font-family:'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
     text-align: center;
     padding: 20px;
+}
+
+.trekking h4{
+    font-size: 35px;
+    color: #1f5b37;
 }
 
 .trekking div{
@@ -288,10 +324,15 @@ h3{
 
 .excursiones{
     background-color: #EEEDEA;
-    font-family:'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
     text-align: center;
     padding: 20px;
+}
+
+.excursiones h4{
+    font-size: 35px;
+    color: #1f5b37;
 }
 
 .excursiones div{
@@ -301,7 +342,6 @@ h3{
     gap: 20px;
 }
 
-
 .excursionesTamaño{
     height: 250px;
     width: 350px;
@@ -310,10 +350,15 @@ h3{
 
 .automovil{
     background-color: #E9E8E5;
-    font-family:'Roboto', sans-serif;
-    font-size: 20px;
+    font-family:'Arimo', sans-serif;
+    font-size: 17px;
     text-align: center;
     padding: 20px;
+}
+
+.automovil h4{
+    font-size: 35px;
+    color: #1f5b37;
 }
 
 .automovil div{
@@ -333,6 +378,9 @@ h3{
 
 .caminataAuto{
     background-color: #EEEDEA;
+    font-family: 'Arimo', sans-serif;
+    font-size: 25px;
+    color: #1f5b37;
     padding: 30px;
     text-align: center;
 }
@@ -372,6 +420,9 @@ h3{
     grid-area: texto1;
     padding: 50px;
     text-align: start;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
 }
 
 .imagen2{
@@ -415,6 +466,9 @@ h3{
     grid-area: texto2;
     padding: 50px;
     text-align: end;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
 }
 
 
@@ -455,9 +509,11 @@ h3{
 
 .disfrutar{
     background-color: #EEEDEA;
-    font-family:'Roboto', sans-serif;
+    font-family:'Arimo', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
     text-align: justify;
-    padding: 20px;
+    padding: 30px;
 }
 
 .distrutarImagen{
@@ -468,8 +524,9 @@ h3{
 
 .gastronomia{
     background-color: #EEEDEA;
-    font-family:'Roboto', sans-serif;
-    font-size: 20px;
+    font-family:'Arimo', sans-serif;
+    font-size: 35px;
+    color: #1f5b37;
     text-align: center;
     padding: 20px;
 }
@@ -488,8 +545,9 @@ h3{
 
 .hospedaje{
     background-color: #E9E8E5;
-    font-family:'Roboto', sans-serif;
-    font-size: 20px;
+    font-family:'Arimo', sans-serif;
+    font-size: 35px;
+    color: #1f5b37;
     text-align: center;
     padding: 20px;
 }
@@ -509,8 +567,9 @@ h3{
 
 .salud{
     background-color: #EEEDEA;
-    font-family:'Roboto', sans-serif;
-    font-size: 20px;
+    font-family:'Arimo', sans-serif;
+    font-size: 35px;
+    color: #1f5b37;
     text-align: center;
     padding: 20px;
 }
@@ -534,11 +593,22 @@ h3{
 
 .informes{
     background-color: #EEEDEA;
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
     padding: 30px;
+}
+
+.informes h1{
+    font-size: 50px;
+    color: #1f5b37;
 }
 
 .contenedor-informacion{
     background-color: #E9E8E5;
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
     padding: 30px;
     display: flex;
     flex-flow: row wrap;
@@ -584,7 +654,8 @@ h3{
 }
 
 .titulo{
-    font-family:'Roboto', sans-serif;
+    font-family:'Arimo', sans-serif;
+    font-size: 17px;
     line-height: 2;
     grid-area: titulo;
     justify-self: end;
