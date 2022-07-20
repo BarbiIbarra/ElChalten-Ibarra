@@ -709,7 +709,7 @@ header nav ul li{
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width:750px){
+@media (max-width:576px) and (min-width: 280px){
 
 /* INICIO */
 
@@ -718,42 +718,42 @@ header nav ul li{
         gap: 10px;
         display: flex;
         flex-flow: column wrap;
-        align-content: center;
-    
+        align-content: center;d 
     }
+
     .noticia-1{
-        height: 110px;
-        width: 400px;
+        height: 70px;
+        width: 300px;
         grid-area: noticia-1;
     }
     
     .noticia-2{
-        height: 110px;
-        width: 400px;
+        height: 70px;
+        width: 300px;
         grid-area: noticia-2;
     }
     
     .noticia-3{
-        height: 110px;
-        width: 400px;
+        height: 70px;
+        width: 300px;
         grid-area: noticia-3;
     }
     
     .noticia-4{
-        height: 110px;
-        width: 400px;
+        height: 70px;
+        width: 300px;
         grid-area: noticia-4;
     }
     
     .noticia-5{
-        height: 110px;
-        width: 400px;
+        height: 70px;
+        width: 300px;
         grid-area: noticia-5;
     }
     
     .noticia-6{
-        height: 110px;
-        width: 400px;
+        height: 70px;
+        width: 300px;
         grid-area: noticia-6;
     }
     
