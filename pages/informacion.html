@@ -16,58 +16,63 @@
 <body>
 
 <header class="header-actividades">
-    <div>
-      <img src="../multimedia/iconoChalten.png" alt="">
+  <nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../multimedia/iconoChalten.png" alt="" width="60" height="60" class="d-inline-block align-text-center">
+      El Chalten
+      </a>
     </div>
-   <nav class="menu">
-      <ul>
-          <li>
-            <a href="../index.html"> Inicio </a>  
+  </nav>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"> Inicio </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="informacion.html"> Informacion</a>
           </li>
-          <li>
-            <a href="informacion.html"> Informacion </a>  
+          <li class="nav-item dropdown">
+            <a class= "nav-link active dropdown-toggle" href="actividades.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Actividades</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="actividades.html"> Todas las actividades </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="caminatas.html"> Trekking </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="caminatas.html"> Excursiones </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="caminatas.html"> Paseos en automovil </a></li>
+            </ul>
           </li>
-          <li>
-            <a href="actividades.html"> Actividades </a>  
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Servicios </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="servicios.html"> Todos los servicios</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="servicios.html"> Gastronomia </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="servicios.html"> Hospedaje </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="servicios.html"> Salud y bienestar </a></li>
+            </ul>
+          </li>             
+          <li class="nav-item">
+           <a class="nav-link active" href="contacto.html"> Contacto</a>
           </li>
-          <li>
-             <a href="servicios.html"> Servicios </a>
-          </li>
-          <li>
-             <a href="contacto.html"> Contacto </a>
-          </li>
-      </ul>
+        </ul>
+      </div>
+    </div>
   </nav>
 </header>
 
-<section class="carrusel">
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="../multimedia/parquenacional/banner2.0.png" class="d-block w-100" alt="Atardecer en el Monte Fizt Roy">
-      </div>
-      <div class="carousel-item">
-        <img src="../multimedia/parquenacional/banner2.1.png" class="d-block w-100" alt="Atardecer en las nubes">
-      </div>
-      <div class="carousel-item">
-        <img src="../multimedia/parquenacional/banner2.2.png" class="d-block w-100" alt="Montañas nevadas">
-      </div>
-      <div class="carousel-item">
-        <img src="../multimedia/parquenacional/banner2.3.png" class="d-block w-100" alt="Ruta con el Monte Fitz Roy de fondo">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
-
 <main>
+  <div class="probando">
+    <img src="../multimedia/informacion/banner2.1.png" alt="Imagen del pueblo tomada desde las alturas" class="imagenBienvenido">
+  </div>
   <div class="frecuentes">    
     <h2> Preguntas frecuentes </h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe assumenda blanditiis iusto odit, totam nemo ipsam modi deleniti, debitis pariatur molestiae corporis doloribus quisquam consequuntur tempore ullam? Ipsa, vitae vero.</p>

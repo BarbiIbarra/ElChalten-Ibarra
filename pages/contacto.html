@@ -14,31 +14,59 @@
 </head>
 <body>
 
-<header>
-    <div>
-        <img src="../multimedia/iconoChalten.png" alt="">
+  <header class="header-actividades">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../multimedia/iconoChalten.png" alt="" width="60" height="60" class="d-inline-block align-text-center">
+        El Chalten
+        </a>
       </div>
-     <nav class="menu">
-        <ul>
-            <li>
-              <a href="../index.html"> Inicio </a>  
-            </li>
-            <li>
-              <a href="informacion.html"> Informacion </a>  
-            </li>
-            <li>
-              <a href="actividades.html"> Actividades </a>  
-            </li>
-            <li>
-               <a href="servicios.html"> Servicios </a>
-            </li>
-            <li>
-               <a href="contacto.html"> Contacto </a>
-            </li>
-        </ul>
     </nav>
-</header>
-
+  
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"> Inicio </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="informacion.html"> Informacion</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class= "nav-link active dropdown-toggle" href="actividades.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Actividades</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="actividades.html"> Todas las actividades </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="caminatas.html"> Trekking </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="caminatas.html"> Excursiones </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="caminatas.html"> Paseos en automovil </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Servicios </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="servicios.html"> Todos los servicios</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="servicios.html"> Gastronomia </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="servicios.html"> Hospedaje </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="servicios.html"> Salud y bienestar </a></li>
+              </ul>
+            </li>             
+            <li class="nav-item">
+             <a class="nav-link active" href="contacto.html"> Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 <main>
  <div class="informes">
@@ -50,7 +78,7 @@
     <div class= "recuadro-1">
         <fieldset>
         <h2>Centro de informes “Guardaparque Ceferino Fonzo” del Parque Nacional Los Glaciares</h2>
-        <p>Zona Norte Parque Nacional Los Glaciares
+        <p>Parque Nacional Los Glaciares
             Z9301XAF, El Chaltén, Santa Cruz.</p>
         <input type="submit">
         </fieldset>
