@@ -723,9 +723,9 @@ header nav ul li{
         gap: 10px;
         display: flex;
         flex-flow: column wrap;
-        align-content: center;
-    
+        align-content: center;d 
     }
+
     .noticia-1{
         height: 70px;
         width: 300px;
